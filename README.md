@@ -1,4 +1,4 @@
-# vue3-demo
+# vue3-tgui-test
 
 ## Project setup
 ```

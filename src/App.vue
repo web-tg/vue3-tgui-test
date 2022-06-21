@@ -1,15 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <z-button>按钮</z-button>
+  <z-text text="test tg-ui" tag="h2"></z-text>
+  <z-image url="./assets/logo.png"></z-image>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
-<script>
+<script lang="ts">
+import ZButton from '../../tg-z-ui/src/components/ZButton/ZButton.vue'
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    ZButton
   }
 }
 </script>
